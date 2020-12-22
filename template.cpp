@@ -7,7 +7,9 @@
 #define lb lower_bound
 #define ub upper_bound
 #define debug(x) cout << #x << " = " << x << endl
-#define fast  ios_base::sync_with_stdio(false);cin.tie(0);
+#define fast                        \
+  ios_base::sync_with_stdio(false); \
+  cin.tie(0);
 #define all(x) x.begin(), x.end()
 #define PI 3.141592653
 #define endl "\n"
@@ -17,15 +19,25 @@ using namespace std;
   *
   */
 
-const ll M = 1e9 + 7; // define MOD 
+const ll M = 1e9 + 7; // define MOD
 
 template <typename T> // generalize debugging
 void print(T arr)
 {
-    for (auto i : arr)
-    {
-        cout  << i << " ";
-    }
+  for (auto i : arr)
+  {
+    cout << i << " ";
+  }
 
-    cout << endl;
+  cout << endl;
+}
+
+int main()
+{
+  ll t;
+  cin >> t;
+
+  while (t--)
+  {
+  }
 }
